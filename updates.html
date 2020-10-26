@@ -17,7 +17,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/scalibility.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         
         
 	</head>
@@ -129,6 +128,41 @@
                                         </p>
 									</section>
 								</div>
+                                
+                                <div class="col-6 col-12-wider" >
+
+                                        <div id="slideshow3" class="slideshow-container">
+                                            <div style = "background: white; box-shadow: 10px 10px red;">
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/third_meeting2.JPG" style="width:100%">
+                                                </div>
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/third_meeting.JPG" style="width:100%">
+                                                </div>
+
+
+                                            </div>
+                                                <div style="text-align:center;  padding: 10px">
+                                                  <span class="dot" onclick="currentSlide(1, slideshow3)"></span> 
+                                                  <span class="dot" onclick="currentSlide(2, slideshow3)"></span> 
+   
+                                                
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                    <section>
+										<header>
+											<h3><b>10.26.2020</b></h3>
+										</header>
+										<p>Our third meeting was Halloween themed! Everyone dressed in costumes in our virtual Halloween party. We danced to some Halloween music videos and then decorated pumpkins together!
+                                        
+                                        </p>
+									</section>
+								</div>
+                                
 								<div class="col-6 col-12-narrower">
 
 									<section>
@@ -138,7 +172,7 @@
 											<h3>More Meetings soon!</h3>
                                             <br><h3>Meetings every other monday at 12:30!</h3>
                                             <br>
-                                            <h3>Next Meeting: Oct 26</h3>
+                                            <h3>Next Meeting: Nov 9</h3>
 										</header>
 										<p></p>
 									</section>
@@ -177,6 +211,10 @@
                 var slideshow2 = document.getElementById("slideshow2");
                 slideshow2.currentSlideIndex = 1;
                 showSlides(slideshow2.currentSlideIndex, slideshow2);
+                
+                var slideshow3 = document.getElementById("slideshow3");
+                slideshow3.currentSlideIndex = 1;
+                showSlides(slideshow3.currentSlideIndex, slideshow3);
 
 
                 function plusSlides(n, slideshow) {
