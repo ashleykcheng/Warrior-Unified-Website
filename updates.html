@@ -163,6 +163,35 @@
 									</section>
 								</div>
                                 
+                                <div class="col-6 col-12-wider" >
+
+                                        <div id="slideshow4" class="slideshow-container">
+                                            <div style = "background: white; box-shadow: 10px 10px red;">
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/fourth_meeting.JPG" style="width:100%">
+                                                </div>
+
+                                            </div>
+                                                <div style="text-align:center;  padding: 10px">
+                                                  <span class="dot" onclick="currentSlide(1, slideshow4)"></span> 
+
+   
+                                                
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                    <section>
+										<header>
+											<h3><b>11.16.2020</b></h3>
+										</header>
+										<p>At our fourth meeting we first took our club yearbook photo. Then we did some Thanksgiving activities and drew turkeys together!
+                                        
+                                        </p>
+									</section>
+								</div>
+                                
 								<div class="col-6 col-12-narrower">
 
 									<section>
@@ -215,6 +244,10 @@
                 var slideshow3 = document.getElementById("slideshow3");
                 slideshow3.currentSlideIndex = 1;
                 showSlides(slideshow3.currentSlideIndex, slideshow3);
+                
+                var slideshow4 = document.getElementById("slideshow4");
+                slideshow4.currentSlideIndex = 1;
+                showSlides(slideshow4.currentSlideIndex, slideshow4);
 
 
                 function plusSlides(n, slideshow) {
