@@ -192,6 +192,82 @@
 									</section>
 								</div>
                                 
+
+                                <div class="col-6 col-12-wider" >
+
+                                        <div id="slideshow5" class="slideshow-container">
+                                            <div style = "background: white; box-shadow: 10px 10px red;">
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/fifth-one.JPG" style="width:100%">
+                                                </div>
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/fifth-two.png" style="width:100%">
+                                                </div>
+
+                                            </div>
+                                                <div style="text-align:center;  padding: 10px">
+                                                  <span class="dot" onclick="currentSlide(1, slideshow5)"></span> 
+                                                  <span class="dot" onclick="currentSlide(2, slideshow5)"></span> 
+   
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                    <section>
+										<header>
+											<h3><b>12.7.2020</b></h3>
+										</header>
+										<p>This meeting was Animal themed! We played Guess the Animal, then exercised to a video like our favorite animals!
+                                        
+                                        </p>
+									</section>
+								</div>
+                                
+                                <div class="col-6 col-12-wider" >
+
+                                        <div id="slideshow6" class="slideshow-container">
+                                            <div style = "background: white; box-shadow: 10px 10px red;">
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/sixth-one.JPG" style="width:100%">
+                                                </div>
+
+                                                <div class="mySlides fade">
+                                                  <img src="/images/sixth-two.JPG" style="width:100%">
+                                                </div>
+                                                
+                                                <div class="mySlides fade">
+                                                  <img src="/images/sixth-three.JPG" style="width:100%">
+                                                </div>
+                                                
+                                                <div class="mySlides fade">
+                                                  <img src="/images/sixth-fourth.JPG" style="width:100%">
+                                                </div>
+
+                                            </div>
+                                                <div style="text-align:center;  padding: 10px">
+                                                  <span class="dot" onclick="currentSlide(1, slideshow6)"></span> 
+                                                  <span class="dot" onclick="currentSlide(2, slideshow6)"></span> 
+                                                  <span class="dot" onclick="currentSlide(3, slideshow6)"></span> 
+                                                  <span class="dot" onclick="currentSlide(4, slideshow6)"></span> 
+                                                
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                    <section>
+										<header>
+											<h3><b>1.25.2021</b></h3>
+										</header>
+										<p>Our sixth meeting was Disney themed! We colored Disney characters on a nearpod then exercised like characters from Moana!
+                                        
+                                        </p>
+									</section>
+								</div>
+                                
+                                
 								<div class="col-6 col-12-narrower">
 
 									<section>
@@ -201,7 +277,7 @@
 											<h3>More Meetings soon!</h3>
                                             <br><h3>Meetings every other monday at 12:30!</h3>
                                             <br>
-                                            <h3>Next Meeting: Dec 7</h3>
+                                            <h3>Next Meeting Soon!</h3>
 										</header>
 										<p></p>
 									</section>
@@ -248,7 +324,16 @@
                 var slideshow4 = document.getElementById("slideshow4");
                 slideshow4.currentSlideIndex = 1;
                 showSlides(slideshow4.currentSlideIndex, slideshow4);
+                
+                var slideshow5 = document.getElementById("slideshow5");
+                slideshow5.currentSlideIndex = 1;
+                showSlides(slideshow5.currentSlideIndex, slideshow5);
+                
+                var slideshow6 = document.getElementById("slideshow6");
+                slideshow6.currentSlideIndex = 1;
+                showSlides(slideshow6.currentSlideIndex, slideshow6);
 
+                
 
                 function plusSlides(n, slideshow) {
                   showSlides(slideshow.currentSlideIndex += n, slideshow);
