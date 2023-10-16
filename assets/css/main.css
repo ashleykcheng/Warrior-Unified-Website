@@ -345,7 +345,12 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background: #fff;
-			color: inherit;
+			color: black;
+		}
+
+		.wrapper.style3.container a {
+			color: #ff6961; 
+			text-decoration: underline; 
 		}
 
 		.wrapper.style4 {
